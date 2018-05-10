@@ -7,7 +7,7 @@
  * @package WordPress
  * @subpackage mawt
  * @since 1.0.0
- * @version 1.4.0
+ * @version 1.5.0
  */
 
 if ( !function_exists( 'mawt_scripts' ) ):
@@ -76,3 +76,6 @@ require_once get_template_directory() . '/inc/custom-header.php';
 
 require_once get_template_directory() . '/inc/customizer.php';
 
+require_once get_template_directory() . '/inc/custom-login.php';
+
+require_once get_template_directory() . '/inc/custom-admin.php';
