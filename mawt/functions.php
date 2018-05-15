@@ -7,7 +7,7 @@
  * @package WordPress
  * @subpackage mawt
  * @since 1.0.0
- * @version 1.5.0
+ * @version 1.6.0
  */
 
 if ( !function_exists( 'mawt_scripts' ) ):
@@ -56,6 +56,14 @@ add_action('widgets_init', 'mawt_register_sidebars');
 
 if ( !function_exists( 'mawt_setup' ) ):
   function mawt_setup () {
+    //Soporte para traducciones
+      //https://developer.wordpress.org/themes/functionality/internationalization/
+      //https://make.wordpress.org/polyglots/handbook/
+    //Herramientas
+      //https://www.icanlocalize.com/tools/php_scanner
+      //https://poedit.net/
+    load_theme_textdomain( 'mawt', get_template_directory() . '/languages' );
+
     //https://developer.wordpress.org/reference/functions/add_theme_support/
     add_theme_support( 'post-thumbnails' );
     //add_image_size( name, width, height, crop );
@@ -79,3 +87,4 @@ require_once get_template_directory() . '/inc/customizer.php';
 require_once get_template_directory() . '/inc/custom-login.php';
 
 require_once get_template_directory() . '/inc/custom-admin.php';
+?>
