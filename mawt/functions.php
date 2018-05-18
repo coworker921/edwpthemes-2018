@@ -7,7 +7,7 @@
  * @package WordPress
  * @subpackage mawt
  * @since 1.0.0
- * @version 1.6.0
+ * @version 1.7.0
  */
 
 if ( !function_exists( 'mawt_scripts' ) ):
@@ -87,4 +87,13 @@ require_once get_template_directory() . '/inc/customizer.php';
 require_once get_template_directory() . '/inc/custom-login.php';
 
 require_once get_template_directory() . '/inc/custom-admin.php';
+
+//require_once get_template_directory() . '/inc/custom-post-types.php';
+
+//require_once get_template_directory() . '/inc/custom-taxonomies.php';
+
+//require_once get_template_directory() . '/inc/custom-metaboxes.php';
+
+require_once get_template_directory() . '/inc/custom-pre-get-posts.php';
+
 ?>
