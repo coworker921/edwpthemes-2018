@@ -70,4 +70,17 @@ La teoría de la especialidad se encuentra en los siguientes archivos MarkDown:
 
 ### 3) Buenas prácticas y herramientas para el desarrollo de temas.
 
+* Módulo personalizado en el Dashbord.
+  * Creación de Tablas MySQL.
+  * Short Codes.
+  * Formularios dinámicos en el frontend.
+  * Insertando información en la base de datos.
+  * Creación de menús y secciones en el Dashboard.
+  * Mostrando información de la BD en el Dashboard.
+  * Eliminando registros en el Dashboard.
+  * JS, jQuery y AJAX para WordPress.
+* Flujos de Trabajo en WordPress
+  * Starter Themes
+  * WordPress y Node.js
+
 ### 4) Creando mi primer tema profesional.
