@@ -70,6 +70,7 @@ La teoría de la especialidad se encuentra en los siguientes archivos MarkDown:
 
 ### 3) Buenas prácticas y herramientas para el desarrollo de temas.
 
+* Opciones dinámicas del tema
 * Módulo personalizado en el Dashbord.
   * Creación de Tablas MySQL.
   * Short Codes.
