@@ -80,8 +80,8 @@ La teoría de la especialidad se encuentra en los siguientes archivos MarkDown:
   * Mostrando información de la BD en el Dashboard.
   * Eliminando registros en el Dashboard.
   * JS, jQuery y AJAX para WordPress.
-* Flujos de Trabajo en WordPress
-  * Starter Themes
-  * WordPress y Node.js
+* Flujos de Trabajo en WordPress.
+  * Starter Themes.
+  * WordPress y Node.js.
 
 ### 4) Creando mi primer tema profesional.
