@@ -86,5 +86,8 @@ La teoría de la especialidad se encuentra en los siguientes archivos MarkDown:
     * [HTML5 Blank](http://html5blank.com/).
     * [Sage](https://roots.io/sage/).
   * WordPress y Node.js.
+    * [Node.js](https://nodejs.org/en/)
+    * [NVM](https://github.com/creationix/nvm)
+    * [NVM para Windows](https://github.com/coreybutler/nvm-windows)
 
 ### 4) Creando mi primer tema profesional.
