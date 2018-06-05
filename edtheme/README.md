@@ -1,0 +1,29 @@
+# kEnAi WP Starter Theme
+
+An easy and simple starter theme for wordpress with generals assets like pages, post, categories, tags, authors, searchs, etc. Optimized with Grid CSS and Custom Properties.
+
+Un tema de inicio sencillo y fácil para WordPress con elementos generales como páginas, entradas, categorías, etiquetas, autores, búsquedas, etc. Optimizado con Grid CSS y Custom Properties.
+
+Creado por [@jonmircha](https://jonmircha.com)
+
+![kEnAi WP Starter Theme](./screenshot.png)
+
+"babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babelify": "^8.0.0",
+    "browser-sync": "^2.24.4",
+    "browserify": "^16.2.2",
+    
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-jsmin": "^0.1.5",
+    "gulp-plumber": "^1.2.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sort": "^2.0.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-wp-pot": "^2.3.1",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
