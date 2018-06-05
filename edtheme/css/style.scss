@@ -1,5 +1,5 @@
 /*!
-Theme Name: My Awesome WP Theme
+ Theme Name: My Awesome WP Theme
 Theme URI: https://jonmircha.com/mawt/
 Author: Jonathan MirCha
 Author URI: https://jonmircha.com/
@@ -11,99 +11,8 @@ Tags: one-column, two-columns, right-sidebar, left-sidebar, full-width, flexible
 Text Domain: mawt
 */
 
-@import 'reset';
-@import 'header';
-@import 'menu';
-@import 'footer';
-@import 'social_menu';
-@import 'wp_custom_header';
-@import 'hero_image';
-@import 'widgets';
-@import 'search_form';
-@import 'comments';
-
-/* ********** Content ********** */
-.Content-container {
-  margin: 0 auto;
-  max-width: var(--container-width);
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: repeat(3, auto);
-  grid-template-areas: 'main'
-                                    'features'
-                                    'sidebar';
-  grid-gap: 1rem;
-}
-
-.Content-container.Page {
-  grid-template-columns: 100%;
-  grid-template-rows: repeat(2, auto);
-  grid-template-areas: 'main'
-                                    'sidebar';
-}
-
-.Content-container.Page.FullWidth {
-  grid-template-columns: 100%;
-  grid-template-rows: auto;
-  grid-template-areas: 'main';
-}
-
-.Content-container > * {
-  padding: 1rem;
-  background-color: var(--border-color);
-}
-
-.Main { grid-area: main; }
-
-.Main p { margin: 1rem 0; }
-
-.Main hr {
-  margin: 2rem auto;
-  width: 50%;
-  border: thin dashed var(--main-color);
-}
-
-.Main hr:last-child { display: none; }
-
-.Sidebar { grid-area: sidebar; }
-
-.Pagination,
-.Comments { grid-area: features; }
-
-@media screen and (min-width: 64em) {
-  .Content-container {
-    margin: 1rem auto;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: repeat(2, auto);
-    grid-template-areas: 'main sidebar'
-                                      'features sidebar';
-  }
-
-  .Content-container.Page {
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: 'main  sidebar';
-  }
-
-  .Content-container.Page.Sidebar-left {
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: auto;
-    grid-template-areas: 'sidebar main';
-  }
-}
-
-/* ********** WP-Query ********** */
-.WP-Query {
-  margin: 1rem auto;
-  padding: 1rem;
-  max-width: var(--container-width);
-  background-color: var(--border-color);
-
-  display: grid;
-  grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) );
-  grid-gap: 1rem;
-}
-
-.WP-Query figure {
-  text-align: center;
+html {
+  background-color: steelblue;
+  color: white;
+  font-family: sans-serif;
 }

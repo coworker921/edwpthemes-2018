@@ -21,7 +21,7 @@ const reload = browserSync.reload,
     './**/*.php'
   ],
   proxyOptions = {
-    proxy: 'localhost/perros/',
+    proxy: 'localhost:8080/perros/',
     notify: false
   },
   imageminOptions = {
@@ -31,8 +31,8 @@ const reload = browserSync.reload,
     svgoPlugins: [{ removeViewBox: false }]
   },
   wpPotOptions = {
-    domain: 'mawt',
-    package: 'mawt',
+    domain: 'kenai',
+    package: 'kenai',
     lastTranslator: 'Jonathan MirCha <jonmircha@gmail.com>'
   },
   potFile = './languages/en_US.pot'
@@ -46,7 +46,7 @@ gulp.task('css', () => {
     .pipe(sass())
     .pipe(autoprefixer({ browsers: ['last 2 versions'] }))
     .pipe(cleanCSS())
-    .pipe(sourcemaps.write('./'))
+    .pipe(sourcemaps.write('./css/'))
     .pipe(gulp.dest('./'))
     .pipe(reload({ stream: true }))
 })
@@ -59,7 +59,7 @@ gulp.task('js', () => {
     .pipe(source('script.js'))
     .pipe(buffer())
     .pipe(sourcemaps.init({ loadMaps: true }))
-    .pipe(sourcemaps.write('./'))
+    .pipe(sourcemaps.write('./js/'))
     .pipe(jsmin())
     .pipe(gulp.dest('./'))
     .pipe(reload({ stream: true }))
@@ -82,3 +82,5 @@ gulp.task('default', ['server', 'css', 'js'], () => {
   gulp.watch('./css/**/*.+(scss|css)', ['css'])
   gulp.watch('./js/**/*.js', ['js'])
 })
+
+

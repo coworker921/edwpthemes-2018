@@ -1,24 +1,13 @@
 {
-  "name": "jonmircha",
-  "version": "4.0.0",
-  "description": "Sitio web personal de Jonathan MirCha versión 4",
+  "name": "kenai-gulp-wp-starter-theme",
+  "version": "1.0.0",
+  "description": "Un kit de inicio para trabajar temas en WordPress optimizado con Node.js y Gulp.",
   "main": "gulpfile.babel.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jonmircha/jonmircha-website.git"
-  },
-  "keywords": [
-    "jonmircha"
-  ],
   "author": "Jonathan MirCha <jonmircha@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jonmircha/jonmircha-website/issues"
-  },
-  "homepage": "https://github.com/jonmircha/jonmircha-website#readme",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
