@@ -2,20 +2,21 @@
     <footer class="Footer">
       <section class="Footer-container">
         <div>
-          <nav class="SocialMedia">
-            <ul>
-              <li><a href="https://facebook.com" target="_blank">facebook</a></li>
-              <li><a href="https://twitter.com" target="_blank">twitter</a></li>
-              <li><a href="https://github.com" target="_blank">github</a></li>
-              <li><a href="https://codepen.io" target="_blank">codepen</a></li>
-              <li><a href="https://youtube.com" target="_blank">youtube</a></li>
-              <li><a href="https://instagram.com" target="_blank">instagram</a></li>
-            </ul>
-          </nav>
+          <?php
+          if ( has_nav_menu( 'social_menu' ) ):
+            wp_nav_menu(array(
+              'theme_location' => 'social_menu',
+              'container' => 'nav',
+              'container_class' => 'SocialMedia',
+              'link_before' => '<span class="sr-text">',
+              'link_after' => '</span>'
+            ));
+          endif;
+        ?>
         </div>
         <div>
           <p>
-            &copy; <?php echo date('Y'); ?> Copyright
+            &copy; <?php echo date('Y') . __(' Derechos Reservados', 'mawt'); ?>
             <a href="https://jonmircha.com" target="_blank">@jonmircha</a>.
           </p>
         </div>
