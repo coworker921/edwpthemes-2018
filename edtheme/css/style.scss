@@ -11,9 +11,18 @@ Tags: one-column, two-columns, right-sidebar, left-sidebar, full-width, flexible
 Text Domain: mawt
 */
 
-html {
-  background-color: steelblue;
-  color: white;
-  font-family: sans-serif;
-  margin-left: 10%;
-}
+@import 'reset';
+@import 'header';
+@import 'menu';
+@import 'grid_layout';
+@import 'footer';
+@import 'widgets';
+@import 'search_form';
+@import 'social_menu';
+@import 'post';
+@import 'pagination';
+@import 'comments.css';
+@import 'not_found';
+@import 'author';
+@import 'wp_custom_header';
+@import 'hero_image';
