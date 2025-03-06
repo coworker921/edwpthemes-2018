@@ -107,6 +107,6 @@ La teoría de la especialidad se encuentra en los siguientes archivos MarkDown:
   * Agregando elementos interactivos.
   * Personalización y opciones avanzadas.
 * Maquetación y Programación del tema:
-  * CSS al servicio de WordPress.
+  * CSS al servicio de WordPress. 
   * Arquitectura orientada a Componentes y WordPress.
   * Maquetando y Programando para WordPress.
